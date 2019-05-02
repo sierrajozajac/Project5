@@ -30,6 +30,8 @@ The "Calculate HD" button populates the text fields bellow with the count of how
 
 ![](https://github.com/sierrasallee/Project5/blob/master/addStation.png) </br>
 
+Users are able to add stations to compare with by inputting the station ID in the text field. The station ID is case sensitive, so users must be careful. The text inside the text field will not be added until the "Add Station" button is pressed.
+
 
 # Tree View
 
@@ -39,3 +41,4 @@ The tree view allows users to see all the MesoStations in order of their hamming
 
 
 # Issues
+I had issues getting the combobox to update correctly. I was using a string array to store the variables for the combobox and I think this is why I was having issues. Once I changed it to a DefaultComboBoxModel, the app worked well.
